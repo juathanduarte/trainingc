@@ -12,7 +12,7 @@ int main(){
     while (a <= b){
         a = a + 1;
         if (a == b)
-            break;
+            continue;
         printf("%d\n", a);
     }
     system("pause");
